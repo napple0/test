@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11478D7711B25D21904F662B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A2D1F71C7323BD75FFA8346 /* libPods.a */; };
+		5B48AC391C4CD85200F09456 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48AC381C4CD85200F09456 /* CameraViewController.swift */; };
+		5B48AC3B1C4CD9DD00F09456 /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B48AC3A1C4CD9DD00F09456 /* CropViewController.swift */; };
+		5B594A111C10491F002491FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B594A101C10491F002491FA /* Foundation.framework */; };
+		5B594A131C104927002491FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B594A121C104927002491FA /* UIKit.framework */; };
+		5B791F2D1C117D8E007521A8 /* TestOpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5B791F2C1C117D8E007521A8 /* TestOpenCV.mm */; };
 		5B8D10261C102C8000BF0F60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8D10251C102C8000BF0F60 /* AppDelegate.swift */; };
 		5B8D10281C102C8000BF0F60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8D10271C102C8000BF0F60 /* ViewController.swift */; };
 		5B8D102B1C102C8000BF0F60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8D10291C102C8000BF0F60 /* Main.storyboard */; };
 		5B8D102D1C102C8000BF0F60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8D102C1C102C8000BF0F60 /* Images.xcassets */; };
 		5B8D10301C102C8000BF0F60 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B8D102E1C102C8000BF0F60 /* LaunchScreen.xib */; };
 		5B8D103C1C102C8000BF0F60 /* OCR3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8D103B1C102C8000BF0F60 /* OCR3Tests.swift */; };
+		5BA30FAF1C3E30ED00038249 /* Tesseract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA30FAE1C3E30ED00038249 /* Tesseract.swift */; };
+		5BC4C8AE1C3CE14D006E89CA /* Synthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC4C8AD1C3CE14D006E89CA /* Synthesis.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A2D1F71C7323BD75FFA8346 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		237BA0B73531EC9E35DB52E9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5B2A34631C5369E900B80758 /* eng.traineddata */ = {isa = PBXFileReference; lastKnownFileType = file; name = eng.traineddata; path = ../../tessdata/eng.traineddata; sourceTree = "<group>"; };
+		5B48AC381C4CD85200F09456 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		5B48AC3A1C4CD9DD00F09456 /* CropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropViewController.swift; sourceTree = "<group>"; };
+		5B594A101C10491F002491FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B594A121C104927002491FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B791F2C1C117D8E007521A8 /* TestOpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TestOpenCV.mm; sourceTree = "<group>"; };
 		5B8D10201C102C8000BF0F60 /* OCR3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCR3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B8D10241C102C8000BF0F60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B8D10251C102C8000BF0F60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +52,10 @@
 		5B8D10351C102C8000BF0F60 /* OCR3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCR3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B8D103A1C102C8000BF0F60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B8D103B1C102C8000BF0F60 /* OCR3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCR3Tests.swift; sourceTree = "<group>"; };
+		5BA30FAE1C3E30ED00038249 /* Tesseract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tesseract.swift; sourceTree = "<group>"; };
+		5BC4C8AD1C3CE14D006E89CA /* Synthesis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Synthesis.swift; sourceTree = "<group>"; };
+		5BCE10481C103177002A0E77 /* OCR3-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "OCR3-Bridging-Header.h"; path = "../OCR3-Bridging-Header.h"; sourceTree = "<group>"; };
+		8494BEAFB791F56F8C4E3F21 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +63,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B594A131C104927002491FA /* UIKit.framework in Frameworks */,
+				5B594A111C10491F002491FA /* Foundation.framework in Frameworks */,
+				11478D7711B25D21904F662B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +79,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10BB0D61A126114DDA5A2DFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B594A121C104927002491FA /* UIKit.framework */,
+				5B594A101C10491F002491FA /* Foundation.framework */,
+				1A2D1F71C7323BD75FFA8346 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AFC1A01297C8AF7C687BE05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				237BA0B73531EC9E35DB52E9 /* Pods.debug.xcconfig */,
+				8494BEAFB791F56F8C4E3F21 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5B8D10171C102C8000BF0F60 = {
 			isa = PBXGroup;
 			children = (
 				5B8D10221C102C8000BF0F60 /* OCR3 */,
 				5B8D10381C102C8000BF0F60 /* OCR3Tests */,
 				5B8D10211C102C8000BF0F60 /* Products */,
+				3AFC1A01297C8AF7C687BE05 /* Pods */,
+				10BB0D61A126114DDA5A2DFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +121,16 @@
 		5B8D10221C102C8000BF0F60 /* OCR3 */ = {
 			isa = PBXGroup;
 			children = (
+				5B2A34631C5369E900B80758 /* eng.traineddata */,
 				5B8D10251C102C8000BF0F60 /* AppDelegate.swift */,
 				5B8D10271C102C8000BF0F60 /* ViewController.swift */,
+				5BA30FAE1C3E30ED00038249 /* Tesseract.swift */,
+				5BC4C8AD1C3CE14D006E89CA /* Synthesis.swift */,
+				5B791F2C1C117D8E007521A8 /* TestOpenCV.mm */,
+				5BCE10481C103177002A0E77 /* OCR3-Bridging-Header.h */,
 				5B8D10291C102C8000BF0F60 /* Main.storyboard */,
+				5B48AC381C4CD85200F09456 /* CameraViewController.swift */,
+				5B48AC3A1C4CD9DD00F09456 /* CropViewController.swift */,
 				5B8D102C1C102C8000BF0F60 /* Images.xcassets */,
 				5B8D102E1C102C8000BF0F60 /* LaunchScreen.xib */,
 				5B8D10231C102C8000BF0F60 /* Supporting Files */,
@@ -119,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B8D103F1C102C8000BF0F60 /* Build configuration list for PBXNativeTarget "OCR3" */;
 			buildPhases = (
+				1F5A9146366B150733F19C3D /* Check Pods Manifest.lock */,
 				5B8D101C1C102C8000BF0F60 /* Sources */,
 				5B8D101D1C102C8000BF0F60 /* Frameworks */,
 				5B8D101E1C102C8000BF0F60 /* Resources */,
+				51D2DBF7FF8328D73FE7B682 /* Embed Pods Frameworks */,
+				63FEABF1CA6AA9B8028EDF73 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,13 +261,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F5A9146366B150733F19C3D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		51D2DBF7FF8328D73FE7B682 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63FEABF1CA6AA9B8028EDF73 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B8D101C1C102C8000BF0F60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5B8D10281C102C8000BF0F60 /* ViewController.swift in Sources */,
+				5BA30FAF1C3E30ED00038249 /* Tesseract.swift in Sources */,
 				5B8D10261C102C8000BF0F60 /* AppDelegate.swift in Sources */,
+				5B791F2D1C117D8E007521A8 /* TestOpenCV.mm in Sources */,
+				5BC4C8AE1C3CE14D006E89CA /* Synthesis.swift in Sources */,
+				5B48AC391C4CD85200F09456 /* CameraViewController.swift in Sources */,
+				5B48AC3B1C4CD9DD00F09456 /* CropViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +365,7 @@
 		5B8D103D1C102C8000BF0F60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -291,10 +398,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos8.4;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -302,7 +413,7 @@
 		5B8D103E1C102C8000BF0F60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -329,35 +440,58 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos8.4;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		5B8D10401C102C8000BF0F60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 237BA0B73531EC9E35DB52E9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"\"${PODS_ROOT}/Headers/Public\"/**",
+					"\"${PODS_ROOT}/Headers/Public/OpenCV\"/**",
+					"\"${PODS_ROOT}/Headers/Public/TesseractOCRiOS\"/**",
+				);
 				INFOPLIST_FILE = OCR3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT)/OCR3-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		5B8D10411C102C8000BF0F60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8494BEAFB791F56F8C4E3F21 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"\"${PODS_ROOT}/Headers/Public\"/**",
+					"\"${PODS_ROOT}/Headers/Public/OpenCV\"/**",
+					"\"${PODS_ROOT}/Headers/Public/TesseractOCRiOS\"/**",
+				);
 				INFOPLIST_FILE = OCR3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT)/OCR3-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		5B8D10431C102C8000BF0F60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 237BA0B73531EC9E35DB52E9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -377,6 +511,7 @@
 		};
 		5B8D10441C102C8000BF0F60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8494BEAFB791F56F8C4E3F21 /* Pods.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -409,6 +544,7 @@
 				5B8D10411C102C8000BF0F60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B8D10421C102C8000BF0F60 /* Build configuration list for PBXNativeTarget "OCR3Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +553,7 @@
 				5B8D10441C102C8000BF0F60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
